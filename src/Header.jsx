@@ -123,6 +123,9 @@ const Header = () => {
             <p className="text-white text-xl font-extrabold text-center mt-5 sm:text-3xl">
             Los días <span className="text-green-500">1, 2 y 3 de Octubre</span> del 2025 </p>
           </p>
+          <h1 className="pt-20 text-white text-3xl font-extrabold text-center sm:text-7xl">
+            MÁS <span className="text-green-500">INFO</span> PROXIMAMENTE
+          </h1>
         </div>
       </div>
 
