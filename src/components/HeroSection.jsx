@@ -46,7 +46,7 @@ const HeroSection = () => {
           Domina el Mercado con este taller en Santander
         </h1>
         <p className="text-xl mb-8">
-          1er taller presencial intensivo con trader´s de intradía y acciones
+          1er taller presencial intensivo con trader de intradía y acciones
         </p>
 
         {/* Contador */}
@@ -69,13 +69,17 @@ const HeroSection = () => {
             </div>
           ))}
         </div>
-
-        <button className="bg-yellow-500 hover:bg-yellow-600 text-[#328077] font-bold py-3 px-8 rounded-full text-lg transition duration-300 transform hover:scale-105">
+        <a
+          href="#precios"
+          className="inline-block bg-yellow-500 hover:bg-yellow-600 text-[#328077] font-bold py-3 px-8 rounded-full text-lg transition duration-300 transform hover:scale-105"
+        >
           ¡Reserva tu plaza ahora!
-        </button>
-        <p className="mt-7 text-2xl font-semibold">
+        </a>
+        <div className='mt-5 flex justify-center'>
+      <p className="text-3xl font-bold">
           PLAZAS LIMITADAS
         </p>
+      </div>
       </div>
       
     </div>

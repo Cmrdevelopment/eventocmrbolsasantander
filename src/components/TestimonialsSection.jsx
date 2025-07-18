@@ -48,7 +48,23 @@ const TestimonialsSection = () => {
             </div>
           ))}
         </div>
+        <div className="mt-10 flex justify-center">
+        <a
+          href="#precios"
+          className="bg-yellow-500 hover:bg-yellow-600 text-[#328077] font-bold py-3 px-8 rounded-full text-lg transition duration-300 transform hover:scale-105"
+        >
+          ¡Reserva tu plaza ahora!
+        </a>
       </div>
+
+      </div>
+       <a href="https://cmrbolsa.com" target="_blank" rel="noopener noreferrer">
+          <img
+            src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701727730/Boomers/Logo_a_modificar-removebg-preview_kjo5ld.png"
+            alt="Logo CMRBolsa"
+            className="mt-10 mx-auto w-36 sm:w-48 mb-0 hover:scale-105 transition-transform duration-200"
+          />
+        </a>
     </div>
   );
 };

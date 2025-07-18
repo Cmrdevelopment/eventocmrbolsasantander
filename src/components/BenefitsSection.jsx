@@ -5,7 +5,7 @@ const BenefitsSection = () => {
     {
       icon: '📈',
       title: 'Aprenderás a indetificar la manipulación ',
-      description: 'Aprende a interpretar gráficos y entradas al mercado'
+      description: 'Aprende a interpretar gráficos y a hacer entradas al mercado'
     },
     {
       icon: '💰',
@@ -21,8 +21,16 @@ const BenefitsSection = () => {
 
 
   return (
-    <div className="py-16 px-4 bg-gray-50">
-      <div className="max-w-6xl mx-auto">
+     <div className="py-16 px-4 bg-gray-50">
+      <div className="max-w-6xl mx-auto text-center">
+        {/* Logo al inicio */}
+         <a href="https://cmrbolsa.com" target="_blank" rel="noopener noreferrer">
+          <img
+            src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701727730/Boomers/Logo_a_modificar-removebg-preview_kjo5ld.png"
+            alt="Logo CMRBolsa"
+            className="mx-auto w-36 sm:w-48 mb-6 hover:scale-105 transition-transform duration-200"
+          />
+        </a>
         <h2 className="text-3xl font-bold text-center mb-12 text-[#328077]">¿Qué aprenderás en este curso PRESENCIAL?</h2>
         <div className="grid md:grid-cols-3 gap-8">
           {benefits.map((benefit, index) => (

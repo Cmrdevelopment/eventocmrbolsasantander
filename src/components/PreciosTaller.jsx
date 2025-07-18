@@ -2,14 +2,14 @@ import { FaCheck } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 
 const handleTallerClick = () => {
-  window.location.href = 'https://mentoriapev.com/finalizar-compra/?add-to-cart=6123';
+  window.location.href = 'https://mentoriapev.com/finalizar-compra/?add-to-cart=6433';
 };
 
 const PreciosTalleres = () => {
   return (
     <>
       <div className="md:mt-7">
-        <div id="opcionesMembresia" className="pl-3 pr-3 font-bold text-center mt-5">
+        <div id="precios" className="pl-3 pr-3 font-bold text-center mt-5">
           <h1 className="xl:text-6xl text-3xl font-bold">¿Te vienes al taller?</h1>
           <div className="m-5">
             <p>
