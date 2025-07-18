@@ -1,3 +1,30 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.boton_reserva {
+    width: 295px;
+    height: 52px;
+    border-color: transparent;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: linear 0.2s;
+    color: white;
+    font-weight: bold;
+    margin: 30px;
+  }
+  
+  .boton_reserva:hover {
+    width: 295px;
+    height: 52px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 21px;
+    border-bottom: 1.5px solid #328077;
+    background-color: rgb(250, 250, 250);
+    color: #328077;
+    font-weight: bold
+    
+  }
